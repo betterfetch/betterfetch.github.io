@@ -1,0 +1,82 @@
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  background-color: #0d1117;
+  color: #e6edf3;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #161b22;
+  padding: 1rem;
+  text-align: center;
+  border-bottom: 1px solid #30363d;
+}
+
+h1 {
+  margin: 0;
+  font-size: 1.8rem;
+}
+
+main {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
+  color: #8b949e;
+  border-top: 1px solid #30363d;
+}
+
+footer a {
+  color: #58a6ff;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+.loading {
+  text-align: center;
+  padding: 2rem;
+  color: #8b949e;
+}
+
+.repo-card {
+  background-color: #161b22;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border: 1px solid #30363d;
+  border-radius: 8px;
+  transition: transform 0.2s ease, border-color 0.2s ease;
+}
+
+.repo-card:hover {
+  transform: translateY(-2px);
+  border-color: #58a6ff;
+}
+
+.repo-name {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 0.3rem;
+}
+
+.commit-message {
+  color: #58a6ff;
+  text-decoration: none;
+}
+
+.commit-message:hover {
+  text-decoration: underline;
+}
+
+.commit-meta {
+  font-size: 0.85rem;
+  color: #8b949e;
+}
